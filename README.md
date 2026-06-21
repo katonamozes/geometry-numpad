@@ -1,4 +1,6 @@
 This macropad has a 12 buttons and will use the xiao rp2040 as a processor. I will use it to play geometry dash so that I don't destroy my laptops keyboard or my mouse. It also has a numpad because my laptop doesn't have one.
+<img width="837" height="562" alt="image" src="https://github.com/user-attachments/assets/4f0d2dc2-0dc2-4d69-b08f-e36f70b8b9c8" />
+<img width="438" height="388" alt="image" src="https://github.com/user-attachments/assets/1ca7eb99-72f7-44f9-906c-ecfcb02cb9dd" />
 
 Bom:
 | Name | Purpose | Quantity | Total (USD) | Distributor | Link |
