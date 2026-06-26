@@ -1,6 +1,30 @@
-This macropad has a 12 buttons and will use the xiao rp2040 as a processor. I will use it to play geometry dash so that I don't destroy my laptops keyboard or my mouse. It also has a numpad because my laptop doesn't have one.
+# Geometry numpad
+This macropad has a 12 buttons and will use the xiao rp2040 as a processor. I will use it to play geometry dash so that I don't destroy my laptops keyboard or my mouse. It also has a numpad because my laptop doesn't have one. 
+
+## Features:
+- Dual layer PCB
+- 12 keys
+    - 9 Numbers
+    - 3 Mouse buttons
+
+## Cad model
+I designed the case in fusion 360 with 3d printing in mind. I designed it in 2 pieces: 1 for the pcb to sit on and 1 to keep the pcb in place.
 <img width="837" height="562" alt="image" src="https://github.com/user-attachments/assets/4f0d2dc2-0dc2-4d69-b08f-e36f70b8b9c8" />
+
+## PCB
+I made my PCB in kicad. I learned a lot making it as I had to use diodes which I haven't used before, I now know that they are directional and that I will need to watch out for how I put them in. 
+
+Schematic
+<img width="750" height="436.5" alt="image" src="https://github.com/user-attachments/assets/41a25ee1-e0ba-474a-b700-2ca48f008090" />
+
+
+PCB
 <img width="438" height="388" alt="image" src="https://github.com/user-attachments/assets/1ca7eb99-72f7-44f9-906c-ecfcb02cb9dd" />
+
+## Firmware overview
+It uses QMK
+I made it so that it has the 9 number keys and the other 3 are mouse keys but instead of having right middle and left click it has 2 left clicks and 1 right click. This is great for playing geometry dash as you can switch between 2 keys when you are playing instead of having to use just 1 key which sometimes isn't fast enough. 
+
 
 Bom:
 | Name | Purpose | Quantity | Total (USD) | Distributor | Link |
